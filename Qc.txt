@@ -1,0 +1,70 @@
+1- 
+
+
+Example 1
+
+Items displayed left To right
+Answer: row
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+=========================================================================================
+
+
+Example 2
+
+Items displayed right To left
+Answer: row-reverse
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+=========================================================================================
+
+
+Example 3
+
+Items displayed top To bottom
+Answer: column
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+=========================================================================================
+
+Example 4
+
+Items displayed bottom To top
+Answer: column-reverse
+
+
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+=========================================================================================
+
+2- 
+
+
+
+P3 → Blue
+
+P4 → Blue
+
+P1 → Not blue (because it comes before h2)
+
+=========================================================================================
+
