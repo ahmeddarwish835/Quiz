@@ -1,0 +1,55 @@
+(1 and 3) -
+
+ <picture>
+  <source srcset="image1.jpg" media="(min-width: 1000px)" />
+  <source srcset="image2.jpg" media="(min-width: 750px)" />
+  <img src="image3.jpg" />
+</picture>
+
+
+This code displays different images depending on screen width (responsive images).
+
+If screen ≥ 1000px it shows image1.jpg
+
+If screen ≥ 750px it shows image2.jpg
+
+Otherwise it shows image3.jpg (default)
+
+Purpose: Improve responsiveness
+
+ =========================================================================================
+
+2- 
+
+.example {
+  margin-left: calc(5% + 5px);
+}
+
+calc() performs mathematical calculations in CSS.
+
+Sets left margin equal to 5% of container width + 5px.
+
+Purpose: Combine different units dynamically.
+
+ =========================================================================================
+
+4- 
+
+<table>
+  <tr>
+    <th scope="row">Header</th>
+    <td>10</td>
+    <td>18</td>
+  </tr>
+</table>
+
+
+Creates a table row where:
+
+"Header" is a row header
+
+10 and 18 are data cells
+
+scope="row" improves accessibility by telling screen readers that the header applies to that row.
+
+=========================================================================================
